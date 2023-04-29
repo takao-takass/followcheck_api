@@ -10,3 +10,7 @@
     ``` bash
     pip install -r requirements.txt
     ```
+1. config.jsonをトレースしないように設定します。
+    ``` bash
+    git update-index --skip-worktree config.json
+    ```
