@@ -14,3 +14,7 @@
     ``` bash
     git update-index --skip-worktree config.json
     ```
+
+# 実装用のメモ類
+- .memosフォルダに実装メモを格納しています。
+- 今後実装予定の機能について、必要な情報ですので、実装の際は参考にしてください。 
