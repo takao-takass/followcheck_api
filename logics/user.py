@@ -3,7 +3,7 @@ from databases.service_users import ServiceUsers
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False)
 
-def get_service_users(engine):
+def fetch_service_users(engine):
     with SessionLocal(bind=engine) as session:
         service_users = session.query(ServiceUsers).all()
 
