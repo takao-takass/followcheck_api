@@ -1,5 +1,5 @@
 from sqlalchemy.orm import sessionmaker
-from models import ServiceUsers
+from database.models import ServiceUsers
 
 #SessionLocal = sessionmaker(autocommit=False, autoflush=False)
 

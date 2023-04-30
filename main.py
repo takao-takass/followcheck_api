@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from models import Base
-from config import load_config
-from routes import get_tweets
+from database.models import Base
+from configurations.config import load_config
+from controllers.routes import get_tweets
 
 app = FastAPI()
 
