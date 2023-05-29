@@ -1,7 +1,7 @@
 # followcheck_api
 
 - AIが1時間で作ってくれました。
-- followcheckのデータベースを使っています。
+- [followcheck](https://github.com/takao-takass/followcheck_web)のデータベースを使っています。
 
 # 手順
 1. このリポジトリをクローンする
